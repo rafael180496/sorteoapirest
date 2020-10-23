@@ -1,0 +1,27 @@
+{
+  "name": "sorteoapirest",
+  "version": "1.0.0",
+  "description": "ApiRestSorteo",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "ts-node ./lib/server.ts",
+    "dev": "tsc && nodemon ./dist/server.js",
+    "prod": "tsc && nodemon ./dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael180496/sorteoapirest.git"
+  },
+  "author": "Sostesanic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafael180496/sorteoapirest/issues"
+  },
+  "homepage": "https://github.com/rafael180496/sorteoapirest#readme",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
